@@ -13,7 +13,7 @@ describe('First two terms', function() {
     });
 });
 
-describe('negtive', function(){
+describe('negative', function(){
   it('should return undefined', function(){
     assert.strictEqual(main.fibonacci(-1), undefined);
   })
