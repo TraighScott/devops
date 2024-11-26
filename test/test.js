@@ -1,8 +1,8 @@
 var main = require('../index');
 var assert = require('assert');
 describe('Regular factorial value', function() {
-    it('should return 1 for Fact(0)', function() {
-        assert.strictEqual(main.factorial(0), 1);
+    it('should return 24 for Fact(4) ', function() {
+        assert.strictEqual(main.factorial(4), 24);
       });
 });
 
